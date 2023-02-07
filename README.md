@@ -1,3 +1,8 @@
+"""
+Kelly Simmons
+2/7/2023
+Domain: NASCAR
+"""
 # datafun-03-datatypes
 
 > Practice with Python data types, filter(), map(), and list comprehensions

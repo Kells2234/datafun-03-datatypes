@@ -67,15 +67,18 @@ print()
 # Use keyword arguments to be clear about the order of the arguments
 def get_winner_message(userguess, botguess):
     if userguess == botguess:
+        print("We tied")
         return "We tied!"
     elif userguess == "rock":
         if botguess == "paper":
+            print("I win")
             return "I win!"
         else:
+            print("You win")
             return "You win!"
 
 
-ready_for_continous_game = False  # change this when ready
+ready_for_continous_game = True  # change this when ready
 
 while True:
     if not ready_for_continous_game:
@@ -97,7 +100,9 @@ while True:
     msg2 = get_winner_message(botguess=bot_choice, userguess=user_choice)
     if msg1 == msg2:
         print(msg1)
-    print()
+    if msg2 == msg1:
+        print(msg2)
+    
     print("This program will run forever unless you type q to quit.")
     print("or use Ctrl-C to stop the program.")
     print()

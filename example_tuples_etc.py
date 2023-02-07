@@ -53,10 +53,10 @@ tupleAThrice = tupleA * 3
 # TODO: Start using this f-string "syntactic sugar" for quick ouptut
 # just add space = space inside the curly braces
 # it will print the name of the variable and the value
-print(f"{tupleA = }")
-print(f"{tupleB = }")
-print(f"{tupleCat = }")
-print(f"{tupleAThrice = }")
+print(f"tupleA = {tupleA}")
+print(f"tupleB = {tupleB}")
+print(f"tupleCat = {tupleCat}")
+print(f"tupleAThrice = {tupleAThrice}")
 
 # tuple membership testing
 

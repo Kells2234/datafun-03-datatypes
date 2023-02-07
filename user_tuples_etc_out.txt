@@ -1,0 +1,22 @@
+PS C:\Users\Kelly\Fundamental od Data Analytics\datafun-03-datatypes> & C:/Users/Kelly/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Kelly/Fundamental od Data Analytics/datafun-03-datatypes/user_tuples_etc.py"
+Tuples
+tupleA = (2, 4, 6, 8, 10)
+tupleB = (8, 10, 12, 14, 16)
+tupleAThrice = (2, 4, 6, 8, 10, 2, 4, 6, 8, 10, 2, 4, 6, 8, 10)
+(1, 2, 3)
+1
+2
+3
+3
+Quotient: 3, Remainder: 1
+Sets
+{50, 20, 40, 10, 30}
+{1, 3, 5, 7, 9}
+{1, 3, 5, 7, 40, 9, 10, 50, 20, 30}
+set()
+Dictionaries
+{'name': 'Truex_Jr', 'car number': 19, 'Position': 1.0}
+{'name': 'K_Bush', 'car number': 8, 'Position': 2.0}
+PS C:\Users\Kelly\Fundamental od Data Analytics\datafun-03-datatypes> ^C
+PS C:\Users\Kelly\Fundamental od Data Analytics\datafun-03-datatypes> ^C
+PS C:\Users\Kelly\Fundamental od Data Analytics\datafun-03-datatypes>
